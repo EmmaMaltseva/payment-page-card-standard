@@ -371,12 +371,14 @@ input:invalid {
   box-shadow: 0 0 0 2px #778AD6;
   transition: none;
   border: none;
+  border-radius: 12px;
 }
 .pay-button:active {
   background-color: #354BCA;
   box-shadow: 0 0 0 2px #778AD6;
   transition: none;
   border: none;
+  border-radius: 12px;
 }
 .pay-button:disabled {
   background-color: #AEAEAE;
