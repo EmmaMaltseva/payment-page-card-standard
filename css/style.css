@@ -401,15 +401,17 @@ input:invalid {
 }
 .pay-button.gray:focus {
   background-color: #EEEFF0;
-  outline: 2px solid #778AD6;
   transition: none;
   border: none;
+  box-shadow: 0 0 0 2px #778AD6;
+  border-radius: 12px;
 }
 .pay-button.gray:active {
   background-color: #EEEFF0;
-  outline: 2px solid #778AD6;
   transition: none;
   border: none;
+  box-shadow: 0 0 0 2px #778AD6;
+  border-radius: 12px;
 }
 .pay-button.gray:disabled {
   background-color: #EEEFF0;
