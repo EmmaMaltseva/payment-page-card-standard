@@ -1,0 +1,1 @@
+# payment-page-card-standard
