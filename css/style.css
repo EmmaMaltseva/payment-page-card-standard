@@ -336,6 +336,7 @@ input:invalid {
 }
 
 .pay-button {
+  -webkit-appearance: none;
   font-family: 'inter', 'Arial', Helvetica, sans-serif;
   border: none;
   outline: none;
