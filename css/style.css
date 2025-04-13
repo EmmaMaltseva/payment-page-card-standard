@@ -367,6 +367,7 @@ input:invalid {
   background-color: #273699;
 }
 .pay-button:focus {
+  -webkit-appearance: none;
   background-color: #354BCA;
   outline: 2px solid #778AD6;
   transition: none;
@@ -374,6 +375,7 @@ input:invalid {
   border-radius: 12px;
 }
 .pay-button:active {
+  -webkit-appearance: none;
   background-color: #354BCA;
   outline: 2px solid #778AD6;
   transition: none;
