@@ -136,7 +136,7 @@ function panMask(event, elem) {
             elem.style.letterSpacing = "0.04ch";
         } else if (elem.value.length <= 19) {
             elem.style.fontSize = "22px";
-            elem.style.letterSpacing = "0.103ch";
+            elem.style.letterSpacing = "0.095ch";
         }
     } else {
         if (elem.value.length > 19) {
@@ -144,7 +144,7 @@ function panMask(event, elem) {
             elem.style.letterSpacing = "0.04ch";
         } else if (elem.value.length <= 19) {
             elem.style.fontSize = "19.5px";
-            elem.style.letterSpacing = "0.103ch";
+            elem.style.letterSpacing = "0.095ch";
         }
     }
 }
@@ -165,7 +165,7 @@ function panFontSize() {
             panInput.style.letterSpacing = "0.04ch";
         } else if (panInput.value.length <= 19) {
             panInput.style.fontSize = "22px";
-            panInput.style.letterSpacing = "0.103ch";
+            panInput.style.letterSpacing = "0.095ch";
         }
     } else {
         if (panInput.value.length > 19) {
@@ -173,7 +173,7 @@ function panFontSize() {
             panInput.style.letterSpacing = "0.04ch";
         } else if (panInput.value.length <= 19) {
             panInput.style.fontSize = "19.5px";
-            panInput.style.letterSpacing = "0.103ch";
+            panInput.style.letterSpacing = "0.095ch";
         }
     }
 }
