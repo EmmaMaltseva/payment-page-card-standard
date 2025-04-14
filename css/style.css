@@ -1,5 +1,5 @@
 @supports (-webkit-touch-callout: none) {
-  .h-screen {
+  .content {
     height: -webkit-fill-available;
   }
 }
