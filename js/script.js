@@ -136,7 +136,7 @@ function panMask(event, elem) {
             elem.style.letterSpacing = "0.04ch";
         } else if (elem.value.length <= 19) {
             elem.style.fontSize = "22px";
-            elem.style.letterSpacing = "0.06ch";
+            elem.style.letterSpacing = "0.08ch";
         }
     } else {
         if (elem.value.length > 19) {
@@ -165,7 +165,7 @@ function panFontSize() {
             panInput.style.letterSpacing = "0.04ch";
         } else if (panInput.value.length <= 19) {
             panInput.style.fontSize = "22px";
-            panInput.style.letterSpacing = "0.06ch";
+            panInput.style.letterSpacing = "0.08ch";
         }
     } else {
         if (panInput.value.length > 19) {
